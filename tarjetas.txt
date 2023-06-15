@@ -1,3 +1,0 @@
-VISA
-MASTER
-AMEX
