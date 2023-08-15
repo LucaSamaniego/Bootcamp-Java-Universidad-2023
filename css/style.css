@@ -1,0 +1,27 @@
+
+        body{
+            /* regla:*/
+            background-color: green;
+            font-family: 'Ubuntu', sans-serif;
+            }
+        p{
+            color:white;
+            /*tamaño de fuente, por estandar viene 16px*/
+            font-size:16px ; 
+            /*para cambiar la fuente*/
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            /*font-weight para cambiar el tamaño del grosor de la fuente*/
+            /*
+            <style>
+            @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap');
+            </style> se puede hacer por css tambien*/
+        } /*selector por id*/
+        #miparrafo{
+            color: aqua;
+        }
+        /*inline>id>etiqueta*/
+        /*selector de clase;*/
+        .miparrafo{
+            color:blue;
+            font-size:23px ;
+        }

@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap');
+
+* { /*selector universal*/
+    margin: 0;
+    font-family: 'ubuntu' ,sans-serif;
+}
+
+/* defino las variabls base con :root*/
+:root {
+    font-size: 10px
+    /*con -- se define una variable*/
+    --primary-color #6f2da8
+}
+body {
+    margin: 0;
+    /*top, right, bottom, left
+    margin-top: 0; top, right, bottom, left
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    */
+}
+
+header {
+    background-color: ghostwhite;
+    height: 20vh; /*valor relativo al viewport*/
+    width: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: crimson;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+img {
+    width: 50%;
+    height: auto;
+}
+
+.sec1 {
+    border: 1px solid black;
+    padding-top: 2vw 5vh;
+    /*el padding es interno*/
+
+}
+
+.sec1 h2 {
+    text-align: center;
+    color: blueviolet;
+    text-transform: lowercase;
+    line-height: 5vh;
+}
+
+.sec1 p {
+    text-decoration-line: initial;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+.sec1 img {
+    display: block;
+    margin: 0 auto;
+}
+
+body section p{
+   font-size: 2rem;
+   text-transform: capitalize; 
+}
+
+.btn:hover {
+    font-size: 1.8rem;
+}
+
+.btn {
+    display: inline-block;
+    width: 20vw;
+    height: 10vh;
+    border: 0;
+    border-radius: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    background-color: yellow;
+}
+
+.btn2 {
+    background-color: greenyellow;
+}
+
+.btn3 {
+    background-color:cadetblue;
+}
+
+.btn4 {
+background-color: brown;
+}
+
+.btn-conteiner{
+    text-align: center;
+
+}
+
+.menu li:hover {
+    background-color: grey;
+
+}
+
+.menu ul{
+    font-size: 2rem;
+}
+
+.menu li{
+    list-style: none;
+    display: inline-block;
+    height: 10vh;
+    width: 30vh;
+    border: 1px solid grey;
+    padding-top: 2vh;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.menu li a {
+    text-decoration: none;
+
+}
+
+.item a:visited {
+    color: black;
+}
+
+/*selector hijo >*/
+#sec2 p > strong{
+    color: red;
+
+}
+
+/*selector hermano adyacente*/
+#sec3 h3 + p {
+    font-size: 3rem;
+}
+/*hermanos generales*/
+#sec4 h3 ~ h5 {
+    font-size: 3rem ;
+}
+/*selectores de atributo*/
+.item a [href="http://google.com"]{
+    color: blue !important;
+}
+
+.item a [href="https"]{
+    color: red !important;
+}
+/* 
+$ termina en
+^ comience con
+

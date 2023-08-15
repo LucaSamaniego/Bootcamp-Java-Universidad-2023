@@ -1,68 +1,43 @@
 <!DOCTYPE html>
-<html>
-    <!--no se ve, pero lo usa/ve navegador -->
-    <head>
-        <title>Bootcamp Java - Educacionit- Universidad 2023 </title>
-    </head>
-
-    <!--se ve-->
-    <body>
-        <!-- todo  esto es un comentario -->
-        <!-- un solo h1 por cada html-->
-        <!-- elemento de bloque -->
-        <h1>Clase 1 - HTML</h1>
-        <h2>Clase 1 - HTML</h2>
-        <h3>Clase 1 - HTML</h3>
-        <h4>Clase 1 - HTML</h4>
-        <h5>Clase 1 - HTML</h5>
-        <h6>Clase 1 - HTML</h6>
-
-        <!--parrofo-->
-        <!--texto o etiqueta de bloque-->
-        <p>Lorem ipsum dolor</p>
-        <p>Lorem ipsum dolor,</p>
-
-        <!--link -->
-        <!--etiquetas en linea -->
-        <!-- direccion absoluta-->
-        <a href="http://www.google.com.ar">Link 1</a>
-        <a href="./contacto.html">ir al contacto</a>
-        <a href="#ajoba">link 3</a>
-
-        <!-- texto o etiqueta en linea-->
-        <span>esto es un texto</span>
-
-        <!-- contenedor-->
-        <div>
-            <img src="https://w0.peakpx.com/wallpaper/658/869/HD-wallpaper-messi-in-fcb-jersey-messi-fcb-jersey-sports-footballer.jpg" alt="el mejor del mundo">
-        </div>
-
-
-        <!-- tablas-->
-        <table 
-                border="1" 
-                width="100%">
-            <thead>
-                <tr>
-                    <th width="40%">columna 1</th>
-                    <th width="40%">columna 2</th>
-                    <th></th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>fila 1 col 1</td>
-                    <td>fila 1 col 2</td>
-                    <td >
-                        <img src="https://w0.peakpx.com/wallpaper/658/869/HD-wallpaper-messi-in-fcb-jersey-messi-fcb-jersey-sports-footballer.jpg" alt="el mejor del mundo">
-                    </td>
-                </tr>
-            </tbody>
-            <tfoot>
-                <tr>
-                    <td id="ajoba" colspan="3">
-                        footer con 3 columnas 
-                    </td>
-                </tr>
-            </tfoot>
-        </table>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 1- forma interna
+    <style>
+        
+        body{
+            /* regla:*/
+            background-color: green;
+            }
+        p{
+            color:white;
+        }
+        /*selector por id*/
+        #miparrafo{
+            color: aqua;
+        }
+        /*inline>id>etiqueta*/
+        /*selector de clase;*/
+        .miparrafo{
+            color:blue
+        }
+    </style>
+    -->
+    <!-- 3- forma-->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 class="miparrafo">clase 1 css</h1>
+    <p id="miparrafo">parrafo1</p>
+    <p>parrafo2</p>
+    <!-- 2- estilo inline-->
+    <p style="color:blueviolet">parrafo3</p>
+    <p class="miparrafo">parrafo4</p>
+    <a href="./html/index-texto.html">ir a texto</a>
+</body>
+</html>
